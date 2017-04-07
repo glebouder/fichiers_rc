@@ -25,6 +25,16 @@ if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
     announce_date_color=${violet}
     pwd_color=${vert_prompt}
   fi
+  if test $(hostname) = sauron; then
+    username_color=${rouge_prompt}
+    host_color=${rouge_prompt}
+    symbols_color=${blanc_prompt}
+    line_color=${rouge} #celle qui ne s'affiche qu'une fois
+    line_color_prompt=${violet_prompt} #celle qui s'affiche après chaque commande
+    date_color=${rouge_prompt}
+    announce_date_color=${violet}
+    pwd_color=${jaune_prompt}
+  fi
 fi
 
 
