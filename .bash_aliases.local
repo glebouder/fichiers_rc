@@ -1,0 +1,64 @@
+# Gestion aliases
+alias edit_al='vim /home/boudy/.bash_aliases'
+alias see_al='less /home/boudy/.bash_aliases'
+
+# Test de variable
+CV=/home/boudy/Documents/Cachan/CV
+
+# Connections ssh
+alias note='ssh gaboutch@note.crans.org'
+alias note-test='ssh gaboutch@note-test.crans.org'
+alias zamok='ssh -D 4242 lebouder@zamok.crans.org'
+alias thot='ssh lebouder@thot.crans.org'
+alias sauron='ssh gaboutch@sauron.crans.org'
+alias 411='ssh -X glebouder@ssh.dptinfo.ens-cachan.fr'
+alias bddh='psql -U tp15 -d tp15 -h senellart.com'
+
+# simplification tex
+if [ -f ~/.ex.tex ]; then
+  alias newtex='cp ~/.ex.tex ./lebouder.tex'
+fi
+
+# Réseau
+alias tcpdump='sudo /usr/sbin/tcpdump -vvv -XX'
+alias ipa='ip a'
+
+# Pointeurs internes
+alias cd..='cd ../'
+alias up='cd ../'
+alias cv='cd /home/boudy/Documents/Cachan/Stage/CV'
+alias motiv='cd /home/boudy/Documents/Cachan/Stage/Motiv'
+alias euler='cd /home/boudy/Documents/Cachan/Code/my_projects/Euler'
+alias note-django='cd /home/boudy/Documents/Respo\ info/Git/note-kfet-2015-django'
+alias note-serveur='cd /home/boudy/Documents/Respo\ info/Git/note-kfet-2015-serveur'
+alias stage='cd /home/boudy/Documents/Cachan/Stage'
+alias prepstage='cd /home/boudy/Documents/Cachan/Stage/M1/Preparation/exos'
+alias reseau='cd /home/boudy/Documents/Cachan/M1/Réseaux'
+alias appstat='cd /home/boudy/Documents/Cachan/M1/AppStat'
+alias arbres='cd /home/boudy/Documents/Cachan/M1/Automates_dArbres'
+alias finkel='cd /home/boudy/Documents/Cachan/M1/Init_Cherch'
+alias probinfo='cd /home/boudy/Documents/Cachan/M1/ProbaInfo'
+alias learnc='cd /home/boudy/Documents/Cachan/Codei/my_projects/learning_c'
+alias genlog='cd /home/boudy/Documents/Cachan/M1/GenieLog'
+alias verif='cd /home/boudy/Documents/Cachan/M1/Vérif'
+alias bdd='cd /home/boudy/Documents/Cachan/M1/BDD'
+alias npa='cd /home/boudy/Documents/NPA'
+alias l3='cd /home/boudy/Documents/Cachan/L3'
+alias m1='cd /home/boudy/Documents/Cachan/M1'
+
+# Commandes Shell
+alias rm='rm -i'     # demande confirmation pour objets sensibles
+alias echo='echo -e' # comprend commandes en \, desactivé par -E
+alias aptup='sudo apt-get update && sudo apt-get upgrade'
+alias wiam='nautilus `pwd` &'
+alias lll='ll'
+alias mm='ll'
+alias grep='grep --color=auto -In'
+alias egrep='egrep --color=auto -In'
+alias fgrep='fgrep --color=auto -In'
+alias rgrep='rgrep --color=auto -In'
+
+# Jeux
+alias zelda='vba ~/Documents/Jeux/zelda/zelda.gb'
+alias cristal='vba ~/Documents/Jeux/cristal/Pokmon\ Version\ CRYSTAL.gb'
+
