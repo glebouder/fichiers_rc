@@ -5,14 +5,16 @@ fi
 
 # Je veux des couleurs différentes
 if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-  username_color=${vert_prompt}
-  host_color=${vert_prompt}
-  symbols_color=${blanc_prompt}
-  line_color=${vert} #celle qui ne s'affiche qu'une fois
-  line_color_prompt=${jaune_prompt} #celle qui s'affiche après chaque commande
-  date_color=${vert_prompt}
-  announce_date_color=${jaune}
-  pwd_color=${violet_prompt}
+  if test $(hostname) = skynet; then
+    username_color=${vert_prompt}
+    host_color=${vert_prompt}
+    symbols_color=${blanc_prompt}
+    line_color=${vert} #celle qui ne s'affiche qu'une fois
+    line_color_prompt=${jaune_prompt} #celle qui s'affiche après chaque commande
+    date_color=${vert_prompt}
+    announce_date_color=${jaune}
+    pwd_color=${violet_prompt}
+  fi
 fi
 
 # OPAM configuration
