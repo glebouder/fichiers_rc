@@ -1,10 +1,3 @@
-# Gestion aliases
-alias edit_al='vim /home/boudy/.bash_aliases'
-alias see_al='less /home/boudy/.bash_aliases'
-
-# Test de variable
-CV=/home/boudy/Documents/Cachan/CV
-
 # Connections ssh
 alias note='ssh gaboutch@note.crans.org'
 alias note-test='ssh gaboutch@note-test.crans.org'
@@ -26,25 +19,23 @@ alias ipa='ip a'
 # Pointeurs internes
 alias cd..='cd ../'
 alias up='cd ../'
-alias cv='cd /home/boudy/Documents/Cachan/Stage/CV'
-alias motiv='cd /home/boudy/Documents/Cachan/Stage/Motiv'
-alias euler='cd /home/boudy/Documents/Cachan/Code/my_projects/Euler'
-alias note-django='cd /home/boudy/Documents/Respo\ info/Git/note-kfet-2015-django'
-alias note-serveur='cd /home/boudy/Documents/Respo\ info/Git/note-kfet-2015-serveur'
-alias stage='cd /home/boudy/Documents/Cachan/Stage'
-alias prepstage='cd /home/boudy/Documents/Cachan/Stage/M1/Preparation/exos'
-alias reseau='cd /home/boudy/Documents/Cachan/M1/Réseaux'
-alias appstat='cd /home/boudy/Documents/Cachan/M1/AppStat'
-alias arbres='cd /home/boudy/Documents/Cachan/M1/Automates_dArbres'
-alias finkel='cd /home/boudy/Documents/Cachan/M1/Init_Cherch'
-alias probinfo='cd /home/boudy/Documents/Cachan/M1/ProbaInfo'
-alias learnc='cd /home/boudy/Documents/Cachan/Codei/my_projects/learning_c'
-alias genlog='cd /home/boudy/Documents/Cachan/M1/GenieLog'
-alias verif='cd /home/boudy/Documents/Cachan/M1/Vérif'
-alias bdd='cd /home/boudy/Documents/Cachan/M1/BDD'
-alias npa='cd /home/boudy/Documents/NPA'
-alias l3='cd /home/boudy/Documents/Cachan/L3'
-alias m1='cd /home/boudy/Documents/Cachan/M1'
+alias cv='cd ~/Documents/Cachan/Stage/CV'
+alias motiv='cd ~/Documents/Cachan/Stage/Motiv'
+alias euler='cd ~/Documents/Cachan/Code/my_projects/Euler'
+alias note-django='cd ~/Documents/Respo\ info/Git/note-kfet-2015-django'
+alias note-serveur='cd ~/Documents/Respo\ info/Git/note-kfet-2015-serveur'
+alias stage='cd ~/Documents/Cachan/Stage'
+alias reseau='cd ~/Documents/Cachan/M1/Réseaux'
+alias appstat='cd ~/Documents/Cachan/M1/AppStat'
+alias arbres='cd ~/Documents/Cachan/M1/Automates_dArbres'
+alias finkel='cd ~/Documents/Cachan/M1/Init_Cherch'
+alias probinfo='cd ~/Documents/Cachan/M1/ProbaInfo'
+alias learnc='cd ~/Documents/Cachan/Codei/my_projects/learning_c'
+alias verif='cd ~/Documents/Cachan/M1/Vérif'
+alias bdd='cd ~/Documents/Cachan/M1/BDD'
+alias npa='cd ~/Documents/NPA'
+alias l3='cd ~/Documents/Cachan/L3'
+alias m1='cd ~/Documents/Cachan/M1'
 
 # Commandes Shell
 alias rm='rm -i'     # demande confirmation pour objets sensibles
@@ -57,8 +48,4 @@ alias grep='grep --color=auto -In'
 alias egrep='egrep --color=auto -In'
 alias fgrep='fgrep --color=auto -In'
 alias rgrep='rgrep --color=auto -In'
-
-# Jeux
-alias zelda='vba ~/Documents/Jeux/zelda/zelda.gb'
-alias cristal='vba ~/Documents/Jeux/cristal/Pokmon\ Version\ CRYSTAL.gb'
 
