@@ -15,7 +15,18 @@ if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
     announce_date_color=${jaune}
     pwd_color=${violet_prompt}
   fi
+  if test $(hostname) = "bde2-virt"; then
+    username_color=${cyan_prompt}
+    host_color=${cyan_prompt}
+    symbols_color=${violet_prompt}
+    line_color=${cyan} #celle qui ne s'affiche qu'une fois
+    line_color_prompt=${violet_prompt} #celle qui s'affiche après chaque commande
+    date_color=${cyan_prompt}
+    announce_date_color=${violet}
+    pwd_color=${vert_prompt}
+  fi
 fi
+
 
 # OPAM configuration
 . /home/boudy/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
