@@ -54,6 +54,7 @@ set incsearch		" Incremental search (also named is)
 "set hidden		" Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
 set hls                 " Highlight matches
+set number
 set relativenumber
 set autoread
 set wildmode=longest,list
