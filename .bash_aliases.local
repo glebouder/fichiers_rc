@@ -12,8 +12,8 @@ alias 411='ssh -X glebouder@ssh.dptinfo.ens-cachan.fr'
 alias bddh='psql -U tp15 -d tp15 -h senellart.com'
 
 # simplification tex
-if [ -f ~/.ex.tex ]; then
-  alias newtex='cp ~/.ex.tex ./lebouder.tex'
+if [ -f ~/fichiers_rc/.ex.tex ]; then
+  alias newtex='cp ~/fichiers_rc/.ex.tex ./lebouder.tex'
 fi
 
 # Réseau
