@@ -46,4 +46,5 @@ alias grep='grep --color=auto -In'
 alias egrep='egrep --color=auto -In'
 alias fgrep='fgrep --color=auto -In'
 alias rgrep='rgrep --color=auto -In'
+alias pdfgrep='pdfgrep --color=auto -n'
 
