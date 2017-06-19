@@ -61,6 +61,11 @@ set wildmode=longest,list
 set title           "Affiche le titre du fichier et le chemin dans le titre du terminal
 set scrolloff=999
 
+
+" Commandes perso
+" doivent commencer par une majuscule
+command Nonum set norelativenumber & nonumber "pour des paste plus simples
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
