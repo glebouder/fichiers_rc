@@ -40,7 +40,9 @@ alias rm='rm -i'     # demande confirmation pour objets sensibles
 alias echo='echo -e' # comprend commandes en \, desactivé par -E
 alias aptup='echo "update starting :\n\n" && sudo apt-get update && echo "\n\nupgrade starting :\n\n" && sudo apt-get upgrade'
 alias wiam='nautilus `pwd` &'
+alias ll='ls -AlFh' # le fichier du crans affiche . et ..
 alias lll='ll'
+alias le='ll --sort=extension'
 alias grep='grep --color=auto -In'
 alias egrep='egrep --color=auto -In'
 alias fgrep='fgrep --color=auto -In'
